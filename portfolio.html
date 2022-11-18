@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Portfolio site</title>
+
+        <!--Responsive-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Styles CSS-->
+        <link rel="stylesheet" href="assets/css/portfolio.css">
+        <link rel="stylesheet" href="assets/lib/locomotive-scroll.min.css">
+    </head>
+
+    <body>
+        <div data-scroll-container>
+            <header>
+                <a href="https://fabienfelix.fr" class="back-button bar-animation">Retour</a>
+                <div class="about">
+                    <div data-scroll data-scroll-speed="-1" class="img1-wrapper">
+                        <div class="img img1"></div>
+                    </div>
+                    <div data-scroll data-scroll-speed="3" class="h2-wrapper">
+                        <h2>Portfolio 2022</h2>
+                    </div>
+                    <p>Mon Portfolio a été créé lors de la formation que j'ai pu étudier. Il me servira à conserver mes travaux et les compétences obtenues lors de mes projets à venir.</p>
+                </div>
+            </header>
+
+            <div data-scroll class="line-wrapper">
+                <div class="line"></div>
+            </div>
+
+            <section>
+                <div class="project-container">
+                    <div class="project">
+                        <div class="project-infos">
+                            <div class="info-1">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                                <p>Responsive</p>
+                            </div>
+                            <div>
+                                <a href="https://fabienfelix.fr" class="expand bar-animation">Voir le projet</a>
+                            </div>
+                        </div>
+                        <img src="assets/img/Projet_Portfolio.png" alt="Portfolio">
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <h3>Merci !</h3>
+            </footer>
+
+        </div>
+
+        <script src="assets/lib/locomotive-scroll.min.js"></script>
+        <script src="assets/js/portfolio.js"></script>
+
+    </body>
+</html>

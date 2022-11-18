@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html 
+    lang="en" 
+    class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scrool-smooth"
+> 
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Portfolio</title>
+
+        <!--Mes syles CSS-->
+        <link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css"/>
+
+        <!--Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div data-scroll-container>
+            <header data-scroll>
+                <div class="links">
+                    <a href="#portfolio" data-scroll-to>Portfolio</a>
+                    <a href="mailto:ffabien.ga1@gmail.com">Contact</a>
+                </div>   
+                <div class="wrapper">
+                    <div data-scroll class="appear" id="h1-wrapper">
+                        <h1 data-scroll data-scroll-speed="4" data-scroll-position="left">Fabien FELIX</h1>
+                    </div>
+                </div>
+                <div data-scroll data-scroll-repeat="true" class="wrapper" id="color">
+                    <div data-scroll class="appear" id="h2-1">
+                        <h2 
+                        data-scroll 
+                        data-scroll-speed="6" data-scroll-direction="horizontal"
+                        data-scroll-position="left"  
+                        >
+                        Recherche d'alternance 
+                        </h2> 
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div data-scroll class="appear" id="h2-2">
+                        <h2
+                        data-scroll 
+                        data-scroll-speed="-6" data-scroll-direction="horizontal"
+                        data-scroll-position="left"
+                        >
+                        Développeur Web Front-end</h2>
+                    </div>
+                </div>
+                <div class="scroll-wrapper">
+                    <p
+                    data-scroll 
+                    data-scroll-speed="-3"
+                    data-scroll-position="top"
+                    >
+                    please scroll</p>
+                </div>
+            </header>
+
+            <section class="about">
+                <div data-scroll data-scroll-speed="-1" class="img1-wrapper">
+                    <div class="img img1"></div>
+                </div>
+                <div data-scroll data-scroll-speed="3" class="h2-wrapper">
+                    <h2>À propos</h2>
+                </div>
+                <p>
+                    Je suis un passioné du monde numérique et je me forme en développement web Front-End. Je suis très motivé par l’envie de découvrir et d’essayer de maitriser le Front-End comme le HTML, CSS, JavaScript, Bootstrap, Angular et ainsi que des framworks de ses langages. Afin d’être le plus performant possible en tant que Développeur Web.
+                </p>
+            </section>
+            
+            <div data-scroll class="line-wrapper">
+                <div class="line"></div>
+            </div>
+
+            <section class="skills">
+                <h2 class="title">
+                    <span data-scroll data-scroll-speed="1">C</span>
+                    <span data-scroll data-scroll-speed="0">o</span>
+                    <span data-scroll data-scroll-speed="1">m</span>
+                    <span data-scroll data-scroll-speed="2">p</span>
+                    <span data-scroll data-scroll-speed="0">é</span>
+                    <span data-scroll data-scroll-speed="1">t</span>
+                    <span data-scroll data-scroll-speed="2">e</span>
+                    <span data-scroll data-scroll-speed="1">n</span>
+                    <span data-scroll data-scroll-speed="0">c</span>
+                    <span data-scroll data-scroll-speed="0">e</span>
+                    <span data-scroll data-scroll-speed="0">s</span>
+
+                </h2>
+
+                <div class="wrapper">
+                    <div data-scroll class="appear">
+                        <p
+                        data-scroll 
+                        data-scroll-speed="-2" data-scroll-direction="horizontal"
+                        >
+                        HTML
+                        </p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div data-scroll class="appear">
+                        <p
+                        data-scroll 
+                        data-scroll-speed="1" data-scroll-direction="horizontal"
+                        >
+                        CSS
+                        </p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div data-scroll class="appear">
+                        <p
+                        data-scroll 
+                        data-scroll-speed="-6" data-scroll-direction="horizontal"
+                        >
+                        Javascript
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div data-scroll class="line-wrapper">
+                <div class="line"></div>
+            </div>
+
+            <section class="portfolio" id="portfolio">
+                <h2 class="title">
+                    <span data-scroll data-scroll-speed="1">P</span>
+                    <span data-scroll data-scroll-speed="0">o</span>
+                    <span data-scroll data-scroll-speed="1">r</span>
+                    <span data-scroll data-scroll-speed="2">t</span>
+                    <span data-scroll data-scroll-speed="0">f</span>
+                    <span data-scroll data-scroll-speed="1">o</span>
+                    <span data-scroll data-scroll-speed="2">l</span>
+                    <span data-scroll data-scroll-speed="1">i</span>
+                    <span data-scroll data-scroll-speed="0">o</span>
+                </h2>
+                <div class="projects-container">
+                    <div data-scroll data-scroll-speed="0"  class="project" id="p1">
+                        <img src="./assets/img/Marseille_image.jpg" alt="projet 1">
+                        <div class="project-infos">
+                            <a href="booki.html"> Booki</a>
+                            <p>Voir le projet</p>
+                        </div>
+                    </div>
+                    <div data-scroll class="project" id="p2">
+                        <img src="./assets/img/shoe.jpg" alt="projet 2">
+                        <div class="project-infos">
+                            <a href="nike.html"> Projet Nike</a>
+                            <p>Voir le projet</p>
+                        </div>
+                    </div>
+                    <div data-scroll class="project" id="p2">
+                        <img src="./assets/img/Portfolio_img.jpg" alt="projet 3">
+                        <div class="project-infos">
+                            <a href="portfolio.html"> Portfolio</a>
+                            <p>Voir le projet</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div data-scroll class="line-wrapper">
+                <div class="line"></div>
+            </div>
+
+            <footer>
+                <div class="wrapper">
+                    <div data-scroll class="appear">
+                        <p>Vous avez un projet ?</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div data-scroll class="appear" id="l2">
+                        <p>Je serai ravi d'en <a href="mailto:ffabien.ga1@gmail.com">discuter</a></p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div data-scroll class="appear" id="l3">
+                        <p>avec vous</p>
+                    </div>
+                </div>
+                <br /><br /><br />
+            </footer>
+        </div>
+
+        <script src="./assets/lib/locomotive-scroll.min.js"></script>
+        <script src="./assets/js/index.js"></script>
+        
+    </body>
+</html>
